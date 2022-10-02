@@ -1,6 +1,52 @@
 * {
   font-family: "Open Sans", sans-serif;
 }
+.container {
+  padding: 25px;
+  /* background-color: #ffaa80; */
+  /* width: 25px; */
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  /* border-radius: 25px; */
+}
+.outer {
+  padding: 25px;
+  width: 50px;
+  justify-content: center;
+  align-items: center;
+  /* border-radius: 25px; */
+}
+h1,
+h3,
+h4 {
+  color: white;
+}
+/* CSS styling for Dark-mode and light mode toggle */
+i.toggler {
+  /* color: white; */
+  color: #111;
+  /* float: right; */
+  float: left;
+  /* float: center; */
+  font-size: 50px;
+  /* padding: 20px; */
+}
+.dark-mode {
+  background-color: black;
+}
+.dark-mode i.toggler {
+  /* color: orange; */
+  color: #fff;
+}
+.dark-mode .container {
+  /* background-color: white; */
+}
+.dark-mode h1,
+.dark-mode h3,
+.dark-mode h4 {
+  color: black;
+}
 
 .contact {
   position: absolute;
@@ -61,10 +107,10 @@
   color: rgb(39, 39, 39);
 }
 
-@media (max-width: 767px) .navbar-search {
+/* @media (max-width: 767px) ,.navbar-search {
   height: 98px;
   border-bottom: 0px;
-}
+} */
 
 .navbar-search {
   position: relative;
