@@ -1,5 +1,5 @@
 # portfolio
-Navys's Portfolio site showcasing 
+Portfolio site showcasing 
 - skills
 - education qualifications 
 - projects
